@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title><%= title %></title>
+      <link rel='stylesheet' href='/stylesheets/style.css'/>
+    </head>
+    <body>
+    	<header>
+	    	<h1 id="h1"> <%= title %> </h1>
+	    	<ul class="nav">
+				<li data-type="dot">Dot</li>
+				<li data-type="column" class="selected">Column</li>
+	    	</ul>
+	    	<p>
+				Volume<input id="volume" type="range" min="0" max="100" value="50">
+	    	</p>
+		</header>
+		<div class="left">
+			<li id="play_list">列表循环</li>
+			<ul id="list">
+				<% music.forEach(function(name){ %>
+					<li title="<%= name %>"><%= name %></li>
+
+					
+
+				<% })%>
+				
+
+
+			</ul>
+		</div>
+		<div class="right" id="box">
+		</div>
+	<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+
+	<script src="/javascripts/audio.js"></script>
+	
+ 	</body>
+</html>

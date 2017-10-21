@@ -1,0 +1,19 @@
+*{margin: 0;padding: 0;box-sizing: border-box; text-align: center;}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-color: black; color: pink;
+}
+body li{margin: 10px 0;}
+header,
+.left,
+.right{position: absolute;border:1px solid white;}
+
+header{height: 150px;left: 10px;top:10px;right: 10px;}
+.left{top:170px;left: 10px;bottom: 10px;width: 150px;}
+.left ul{list-style: none;}
+
+.right{top:170px;left:170px;right: 10px; bottom: 10px;}
+
+li.selected{color: yellow;}
+.nav{padding: 0; margin: 0;}
+.nav li{display:inline-block;list-style: none;width: 80px;border: 1px solid white;}
