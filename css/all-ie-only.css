@@ -1,0 +1,8 @@
+nav.navbar{display: none;}
+#header_middle_top_hack{display:block;}
+#header_middle_mid{width: 1000px; position:relative;}
+.input-group{width:500px;}
+#search{position: absolute;top: 0;left:580px;}
+#form-group{float: left;}
+#nav_right span{visibility: hidden;}
+#header_middle_bottom{width: 700px;}
